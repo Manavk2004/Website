@@ -1,31 +1,30 @@
 import Carousel from 'react-bootstrap/Carousel';
 
+
 function Projects() {
   return (
+    <div className='border-4 border-red-500 rounded'>
     <Carousel>
       <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
+        <img src="/One.jpg" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>AI SaaS</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className='border-r-2'>
+        <img src="/Two.jpg" className='border-r-10'/>
+        <Carousel.Caption>
+          <h3>MUSAI</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
+        <img src="/Three.jpg"/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Nimbus KeyBoards</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
