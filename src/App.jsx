@@ -8,16 +8,18 @@ import LanguageBar from './modules/ui/components/LanguageBar'
 function App() {
   return (
     <>
-    <main className='bg-[#1a1823]/98 h-full w-screen flex flex-col'>
+  <div className='bg-[url("/texture.jpg")] -z-1 w-full h-screen'>
+    <main className="bg-[#1a1823]/97 h-full w-screen flex flex-col ">
       <Navigation/>
-      <div className='flex  items-center ml-15 mr-10 justify-between gap-100 h-screen'>
+      <div className='flex  items-center ml-15 mr-10 justify-between h-screen z-1'>
         <LeftSide />
         <RightSide />
       </div>
-      <div>
+      <div className='bg-[#1a1823]/97 '>
         <LanguageBar />
       </div>
     </main>
+  </div>
     </>
   )
 }

@@ -8,7 +8,7 @@ import go from "/go.svg"
 
 function LanguageBar() {
   return (
-    <div className='w-full bg-[#1a1823] text-white  h-64 mb-100 mt-10 flex justify-center items-center'>
+    <div className='w-full bg-[#1a1823] text-white  h-64 mb-100 flex justify-center items-center'>
         <img src={python} className='grayscale opacity-20 size-2/5 hover:opacity-40 transition-opacity ease-out duration-300'/>
         <img src={js} className='grayscale opacity-20 size-2/5 hover:opacity-40 transition-opacity ease-out duration-300'/>
         <img src={ts} className='grayscale opacity-20 size-2/5 hover:opacity-40 transition-opacity ease-out duration-300'/>
