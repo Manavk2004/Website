@@ -2,7 +2,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary bg-[#a995c9]/60! p-0! w-full h-20">
+    <Navbar expand="lg" className="bg-body-tertiary bg-[#a995c9]/60! p-3! w-full h-20">
       <Container className=" w-full m-0!">
         <Navbar.Brand href="#home" className="text-[#a995c9]! sticky!">MK</Navbar.Brand>
 
