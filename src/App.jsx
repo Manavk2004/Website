@@ -4,6 +4,7 @@ import Navigation from './modules/ui/components/NavBar'
 import LeftSide from './modules/ui/HomePage/Left-side'
 import RightSide from './modules/ui/HomePage/Right-side'
 import LanguageBar from './modules/ui/components/LanguageBar'
+import Projects from './modules/ui/Projects/Projects'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className='bg-[#1a1823]/97 '>
         <LanguageBar />
+      </div>
+      <div>
+        <Projects />
       </div>
     </main>
   </div>
