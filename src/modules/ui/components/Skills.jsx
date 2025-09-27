@@ -8,7 +8,7 @@ function Skills() {
     }
 
   return (
-    <div className='bg-[#1a1823]/97 text-white h-full mt-20 p-5 flex w-full'>
+    <div className='bg-[#1a1823]/97 text-white h-full mt-10 p-5 flex w-full'>
         <div className='flex flex-col gap-3 basis-1/2'>
             <h1 className='font-serif'>Languages</h1>
             <div className='flex justify-start items-center ml-2 gap-10'>

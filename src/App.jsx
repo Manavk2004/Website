@@ -7,6 +7,7 @@ import LanguageBar from './modules/ui/components/LanguageBar'
 import Projects from './modules/ui/Projects/Projects'
 import TechnologyBar from './modules/ui/components/TechnologyBar'
 import Skills from './modules/ui/components/Skills'
+import ToolsBar from './modules/ui/components/ToolsBar'
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
       </div>
       <div className='bg-[#1a1823]/97 '>
         <Skills />
+      </div>
+      <div>
+        <ToolsBar />
       </div>
     </main>
   </div>
