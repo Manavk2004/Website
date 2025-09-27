@@ -5,6 +5,7 @@ import LeftSide from './modules/ui/HomePage/Left-side'
 import RightSide from './modules/ui/HomePage/Right-side'
 import LanguageBar from './modules/ui/components/LanguageBar'
 import Projects from './modules/ui/Projects/Projects'
+import TechnologyBar from './modules/ui/components/TechnologyBar'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div>
         <Projects />
+      </div>
+      <div>
+        <TechnologyBar />
       </div>
     </main>
   </div>
